@@ -48,11 +48,16 @@ module.exports = [
                 rule: {
                     include: [
                         '/src/assets/images/svg',
+<<<<<<< HEAD
                         '/src/assets/images/SearchCars/svg',
                         '/src/assets/images/TradeIn/svg',
                         '/src/assets/images/Home/svg',
                         '/src/assets/images/PreQual/svg',
                         '/src/assets/images/PreQualSuccess/svg'
+=======
+                        '/src/assets/images/Home/svg',
+
+>>>>>>> d79c51059d58c9ea353c0a17ae77ad3a18f34b33
                     ]
                 }
             }
