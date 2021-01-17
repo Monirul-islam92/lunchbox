@@ -1,0 +1,61 @@
+{
+  "client": {
+    "myProfile": "/my-profile",
+    "searchCars": "/search-cars",
+    "financeWithFfunCars": "/finance-with-ffun-cars",
+    "aboutFfunCars": "/about-ffun-cars",
+    "tradeIn": "/trade-in",
+    "howItWorks": "/how-it-works",
+    "howItWorks2": "/how-it-works-2",
+    "signUp": "/sign-up",
+    "checkout": {
+      "index": "/checkout",
+      "cashOrFinance": "/checkout/cash-or-finance",
+      "checkoutTradeIn": "/checkout/trade-in",
+      "deliveryOrPickup": "/checkout/delivery-or-pickup",
+      "reviewOrder": "/checkout/review-order",
+      "completeOrder": "/checkout/complete-order"
+    },
+    "preQual": "/pre-qualification",
+    "getAppraised": {
+      "theFacts": "/get-appraised",
+      "features": "/get-appraised/features",
+      "condition": "/get-appraised/condition"
+    },
+    "appraisal": "/appraisal",
+    "vehicles": "/vehicle",
+    "preQualSuccess": "/pre-qualification-result",
+    "individualBenefits": "/individual-benefits",
+    "allBenefits": "/all-benefits",
+    "loanCalculator": "/loan-calculator",
+    "blog": "/blog",
+    "home": "/",
+    "heart": "#",
+    "phone": "#",
+    "contact": "#"
+  },
+  "server": {
+    "autoComplete": "/autoComplete",
+    "appraisal": "/appraisal",
+    "getAppraised": "/getAppraised",
+    "getTradeIn": "/getTradeIn",
+    "createAccount": "/createAccount",
+    "addNewTrade": "/addNewTrade",
+    "login": "/login",
+    "register": "/register",
+    "getExterior": "/getEzExterior",
+    "getInterior": "/getEzInterior",
+    "getThumbnails": "/getEzThumbnails",
+    "getDisplayImages": "/getEzDisplayPictures",
+    "getDetailedImages": "/getEzDetailedPictures",
+    "preQual": "/preQual",
+    "preQualAndRegister": "/preQualAndRegister",
+    "search": "/search",
+    "textSearchVehicles": "/textSearchVehicles",
+    "filterBySearchVehicles": "/sortBySearchVehicles",
+    "updateProfile": "/update-profile",
+    "updatePassword": "/update-password"
+
+  },
+  "external": {}
+}
