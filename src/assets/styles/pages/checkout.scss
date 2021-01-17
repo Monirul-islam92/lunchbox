@@ -1,0 +1,115 @@
+.checkout-wrapper {
+    min-height: 85vh;
+
+    .btn {
+        height: 45px !important;
+        font-size: 0.9em !important;
+    }
+    .car-line-container {
+        position: relative;
+        svg {
+            transform: scale(1.5);
+        }
+        .background-line {
+            border-bottom: 4px solid #d6d6d6;
+            position: relative;
+            .house-icon {
+                position: absolute;
+                right: 6px;
+                bottom: 7px;
+            }
+        }
+        .car-line-text {
+            left: 10px;
+            font-size: 1.25em;
+            position: absolute;
+            top: 40px;
+        }
+        .line-wrapper {
+            padding-right: 110px;
+            position: relative;
+            height: 25px;
+            margin-top: -32px;
+            transition: width 2s;
+            .orange-line {
+                border-bottom: 6px solid #f04f22;
+                height: 31px;
+            }
+            .arrow-head {
+                position: absolute;
+                right: 110px;
+                top: 21px;
+            }
+            .car-icon {
+                position: absolute;
+                right: 17px;
+                top: -3px;
+            }
+        }
+    }
+
+    .sidebar-list {
+        font-size: 1.2em;
+        .sidebar-list-item {
+            position: relative;
+            .item-number {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                border: 3px solid #414042;
+                padding-top: 3px;
+                margin-right: 10px;
+            }
+            .item-text {
+                margin-top: -6px;
+                .smaller {
+                    font-size: 0.8em;
+                }
+            }
+            &.current {
+                font-weight: bolder;
+                .item-number {
+                    background-color: #f04f22;
+                    border-color: #f04f22;
+                    color: white;
+                }
+            }
+            &.complete {
+                .item-number {
+                    background-color: white;
+                    border-color: #f04f22;
+                    color: #f04f22;
+                    font-weight: bold;
+                }
+                .complete-link {
+                    background: #f04f22;
+                    width: 2px;
+                    height: 3em;
+                    position: absolute;
+                    top: 63px;
+                    left: 20px;
+                }
+            }
+        }
+    }
+}
+
+// todo! write out seperately stop gap solution for demo
+.rounded-custom {
+    border-radius: 0.75em !important;
+    border: none;
+}
+
+.mild-zoom:hover {
+    transform: scale(1.05);
+    transition: transform 0.25s;
+}
+
+.custom-check {
+    border-radius: 50%;
+    padding: 3px 7.5px;
+    margin-right: 10px;
+    background: #f04f22;
+    color: white;
+    font-weight: bold;
+}

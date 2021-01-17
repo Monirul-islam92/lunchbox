@@ -1,0 +1,11 @@
+$navHeight: 68;
+$searchHeight: $navHeight * 0.7;
+
+.filterMenu {
+    min-width: 300;
+    margin-left: 75;
+    position: sticky;
+    top: $navHeight;
+    max-height: 100vh;
+    overflow-y: scroll;
+}
